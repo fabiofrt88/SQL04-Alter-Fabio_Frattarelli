@@ -47,6 +47,8 @@ public class Driver {
 
             System.out.println("The column country was poupolated");
 
+            statement.close();
+
         } catch (SQLException e){
             System.out.println(e.getMessage());
         } finally {
